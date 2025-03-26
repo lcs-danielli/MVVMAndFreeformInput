@@ -25,8 +25,15 @@ struct PowerView: View {
                 HStack(alignment: .center) {
                     HStack(alignment: .top) {
                         
-                        Text("\(power.base.formatted())")
-                            .font(.system(size: 96))
+                        if power.base >= 0 {
+                            //
+                            Text("\(power.base.formatted())")
+                                .font(.system(size: 96))
+                        } else {
+                            Text("(\(power.base.formatted()))")
+                                .font(.system(size: 96))
+                        }
+                        
                         
                         Text("\(power.exponent)")
                             .font(.system(size: 44))
