@@ -11,6 +11,8 @@
 		65A347582D945BB100C5B16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A347532D945BB100C5B16F /* Assets.xcassets */; };
 		65A347592D945BB100C5B16F /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A347542D945BB100C5B16F /* PowerView.swift */; };
 		65A3475A2D945BB100C5B16F /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A347552D945BB100C5B16F /* MVVMAndFreeformInputApp.swift */; };
+		65A3475C2D945D1300C5B16F /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3475B2D945D1100C5B16F /* Power.swift */; };
+		65A3475E2D945D9500C5B16F /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A3475D2D945D9100C5B16F /* PowerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		65A347532D945BB100C5B16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65A347542D945BB100C5B16F /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		65A347552D945BB100C5B16F /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
+		65A3475B2D945D1100C5B16F /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		65A3475D2D945D9100C5B16F /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		65A3474E2D945BB100C5B16F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65A3475B2D945D1100C5B16F /* Power.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 		65A347522D945BB100C5B16F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				65A3475D2D945D9100C5B16F /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A3475E2D945D9500C5B16F /* PowerViewModel.swift in Sources */,
 				65A347592D945BB100C5B16F /* PowerView.swift in Sources */,
+				65A3475C2D945D1300C5B16F /* Power.swift in Sources */,
 				65A3475A2D945BB100C5B16F /* MVVMAndFreeformInputApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
